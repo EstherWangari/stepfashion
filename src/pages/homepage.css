@@ -1,0 +1,100 @@
+
+.nav{
+  width: 100%;
+  height: 50px;
+  padding-top: 10px;
+
+}
+.nav li{
+  list-style-type:none;
+  float:left;
+  padding-left: 50px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.nav img {
+  width:50px;
+}
+
+.nav li:last-child{
+  padding-left: 700px;
+}
+.green{
+
+  margin-bottom: 20px;
+}
+.green img {
+  max-width: 100%;
+}
+
+
+
+ .cart .btn-default{
+  border: none;
+  color:#A5D0D1;
+}
+.slidetext{
+  padding-top: 80px;
+  font-size: 2.0rem;
+  font-style: italic;
+}
+.slideimg{
+
+}
+.carousel .slide{
+  background-color:#DBFF80;
+  height: 350px;
+}
+.carousel .slide img{
+  max-width: 35%;
+}
+label{
+
+}
+
+.cart{
+  text-align: right;
+}
+.clothes{
+  margin-top: 20px;
+
+}
+.clothes img {
+  width: 100%;
+  height: 100%;
+}
+.clothes .card{
+  border:1px solid #E9E9E9;
+}
+ .secondrow{
+  margin-top: 30px;
+}
+.text{
+  text-align: center;
+}
+.cash{
+  color:#e91e63;
+}
+.footer{
+  width: 100%;
+  height: 50px;
+  background-color: #000000;
+  color:#ffff;
+  padding-top: 10px;
+}
+.footer li{
+  list-style-type:none;
+  float:left;
+  padding-left: 50px;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.footer img {
+  width:50px;
+}
+
+.footer li:last-child{
+  padding-left: 700px;
+}
