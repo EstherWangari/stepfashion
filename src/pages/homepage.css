@@ -5,20 +5,13 @@
   padding-top: 10px;
 
 }
-.nav li{
-  list-style-type:none;
-  float:left;
-  padding-left: 50px;
-  font-size: 1.5rem;
-  text-align: center;
-}
 
 .nav img {
   width:50px;
 }
 
-.nav li:last-child{
-  padding-left: 700px;
+.nav .last-child{
+  text-align: right;
 }
 .green{
 
@@ -83,18 +76,45 @@ label{
   color:#ffff;
   padding-top: 10px;
 }
-.footer li{
-  list-style-type:none;
-  float:left;
-  padding-left: 50px;
-  font-size: 1.5rem;
-  text-align: center;
-}
+
 
 .footer img {
   width:50px;
 }
 
-.footer li:last-child{
-  padding-left: 700px;
+.footer .last-child{
+  text-align: right
+}
+
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+  .nav{
+    padding-left: 10px
+  }
+  .nav .last-child{
+    text-align: unset
+  }
+  .green{
+    margin-top: 50px
+  }
+  .slidetext{
+    padding-top: 30px
+  }
+  .carousel .slide{
+    height: 390px
+  }
+  .cart {
+    text-align: center;
+    margin-top: 20px;
+ }
+ .footer{
+   padding-left: 10px;
+   height: 100px
+ }
+ .footer .last-child{
+   text-align: unset
+ }
 }

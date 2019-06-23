@@ -1,7 +1,8 @@
 import React from 'react';
 import Slider from "react-slick";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import '/home/kare/Desktop/step/src/pages/homepage.css';
+import '../pages/homepage.css';
+import ViewInfo from './ViewInfo'
 import { Carousel } from 'react-responsive-carousel';
 
 
@@ -13,13 +14,19 @@ export default function Homepage(props){
 
   return (
     <div>
-      <div className='nav'>
-        <ul>
-        <li><img src={require('/home/kare/Desktop/step/src/images/logo/Group 3.png')} /></li>
-        <li>Home</li>
-        <li>products</li>
-        <li className="contacts">contact@hello.step.co.ke +254 721 123 123</li>
-        </ul>
+      <div class=' row nav'>
+        <div class='col-md-2 col-sm-2'>
+          <img src={require('../images/logo/Group 3.png')} />
+        </div>
+        <div class='col-md-2 col-sm-2'>
+          Home
+        </div>
+        <div class='col-md-2 col-sm-2'>
+          Products
+        </div>
+        <div class='col-md-6 col-sm-6 last-child'>
+          contact@hello.step.co.ke +254 721 123 123
+        </div>
       </div>
 
       <div className="green">
@@ -91,13 +98,13 @@ export default function Homepage(props){
             <div class="col-md-3 ">
               <div className="card">
                 <div>
-                  <img src={require('/home/kare/Desktop/step/src/images/C2187291.jpg')}/>
+                  <img src={require('../images/C2187291.jpg')}/>
                 </div>
                 <div className="text">
                   <p>Toddler Girl Jacket</p>
                   <p class="cash"> KES 2000 </p>
                   <button style={style}>Add To Cart</button>
-                  <p><a>View</a></p>
+                  <p><a href='info'>View</a></p>
                 </div>
               </div>
             </div>
@@ -106,13 +113,13 @@ export default function Homepage(props){
           <div class="col-md-3 ">
           <div className="card">
             <div>
-              <img src={require('/home/kare/Desktop/step/src/images/download.jpg')}/>
+              <img src={require('../images/download.jpg')}/>
             </div>
             <div className="text">
               <p>Toddler Girl Green Jacket</p>
               <p class="cash"> KES 2500 </p>
               <button style={style}>Add To Cart</button>
-              <p><a>View</a></p>
+              <p><a href='info'>View</a></p>
             </div>
           </div>
 
@@ -129,7 +136,7 @@ export default function Homepage(props){
                 <p>Toddler Girl Jacket</p>
                 <p class="cash"> KES 2000 </p>
                 <button style={style}>Add To Cart</button>
-                <p><a>View</a></p>
+                <p><a href='info'>View</a></p>
               </div>
             </div>
           </div>
@@ -143,7 +150,7 @@ export default function Homepage(props){
                 <p>Toddler Girl Jacket</p>
                 <p class="cash"> KES 2000 </p>
                 <button style={style}>Add To Cart</button>
-                <p><a>View</a></p>
+                <p><a href='info'>View</a></p>
               </div>
             </div>
           </div>
@@ -160,7 +167,7 @@ export default function Homepage(props){
                 <p>Toddler Girl Jacket</p>
                 <p class="cash"> KES 2000 </p>
                 <button style={style}>Add To Cart</button>
-                <p><a>View</a></p>
+                <p><a href='info'>View</a></p>
               </div>
             </div>
           </div>
@@ -173,7 +180,7 @@ export default function Homepage(props){
               <p>Toddler Girl Jacket</p>
               <p class="cash"> KES 2000 </p>
               <button style={style}>Add To Cart</button>
-              <p><a>View</a></p>
+              <p><a href='info'>View</a></p>
             </div>
           </div>
           </div>
@@ -186,7 +193,7 @@ export default function Homepage(props){
               <p>Toddler Girl Jacket</p>
               <p class="cash"> KES 2000 </p>
               <button style={style}>Add To Cart</button>
-              <p><a>View</a></p>
+              <p><a href='info'>View</a></p>
             </div>
           </div>
           </div>
@@ -199,7 +206,7 @@ export default function Homepage(props){
                 <p>Toddler Girl Jacket</p>
                 <p class="cash"> KES 2000 </p>
                 <button style={style}>Add To Cart</button>
-                <p><a>View</a></p>
+                <p><a href='info'>View</a></p>
               </div>
             </div>
             </div>
@@ -207,13 +214,19 @@ export default function Homepage(props){
         </div>
       </div>
     </div>
-    <div className='footer'>
-      <ul>
-      <li><img src={require('../images/logo/Group 12.png')} /></li>
-      <li>Home</li>
-      <li>products</li>
-      <li className="contacts">contact@hello.step.co.ke +254 721 123 123</li>
-      </ul>
+    <div class=' row footer'>
+      <div class='col-md-2'>
+        <img src={require('../images/logo/Group 3.png')} />
+      </div>
+      <div class='col-md-2'>
+        Home
+      </div>
+      <div class='col-md-2'>
+        Products
+      </div>
+      <div class='col-md-6 last-child'>
+        contact@hello.step.co.ke +254 721 123 123
+      </div>
     </div>
 
 
